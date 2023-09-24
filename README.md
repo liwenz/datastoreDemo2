@@ -1,4 +1,6 @@
 # datastoreDemo2
+For Chinese, you could see https://blog.csdn.net/leon_zeng0/article/details/133156441
+
 This is very simple demo project for preferences DataStore
 1: create a project in ansroid studio , Empty Active Views as template, and name it as datastore Demo, kotlin as language
 
@@ -13,4 +15,10 @@ add following in dependencies {}
 4: As project file MainActivity.kt 's contect, change or replace your MainActivity.kt
 Then you could debug or run app
 
-For Chinese, you could see https://blog.csdn.net/leon_zeng0/article/details/133156441
+The effect of app running is: initially, textview displays hello world
+
+When clearing or getting for the first time, office count=2 is displayed.
+
+When saving, store home in name and edit row numbers in count.
+
+When Get, display the name and count in the Textview area, such as home count=6677
